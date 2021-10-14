@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: #F1F2F4;
+    
+}
+img{
+   max-width: 100%;
+}
+a{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+.container{
+    width: 1080px;
+    margin: auto;
+}
+
+/* Header Start */
+.header{
+    background-color: white;
+   
+    z-index: 1;
+}
+
+.header1{
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 41px;
+  
+    overflow: hidden;
+
+
+}
+.hdBox{
+    
+    float: left;
+
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 110px;
+}
+.srarch{
+    width: 60%;
+    position: relative;
+    padding-top: 10px;
+}
+.srarch input{
+    padding:10px;
+    width: 80%;
+    outline: none;
+    border: 1px solid #CED4DA;
+    border-bottom: 1px solid orange;
+}
+.srarch i{
+    font-size: 20px;
+    background-color: #0397D3;
+    padding: 10px;
+    color: #ffffff;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+    
+}
+.eCardLog{
+    width: 20%;
+    padding-top: 10px;
+    text-align: right;
+    position: relative;
+   
+}
+.eCardLog i{
+    font-size: 30px;
+    margin: 10px;
+    position: absolute;
+    left: 99px;
+    top: 1px;
+}
+.eCardLog input{
+    padding: 8px;
+
+    border: 1px solid #CED4DA;
+    transition: .3s;
+    font-weight: 700;
+
+
+}
+.eCardLog input:hover{
+    background-color: #33C14D;
+
+}
+.header2{
+    border-bottom: 1px solid #89C4F4;
+}
+.header2 ul{
+    list-style: none;
+    text-align: center ;
+}
+.header2 ul li{
+    display: inline-block;
+}
+.header2 ul li a{
+    display: block;
+    padding:10px 10px;
+    color: #333;
+    transition: .3s ease;
+}
+.header2 ul li a:hover{
+    color:   #89C4F4;
+}
+.header2 ul li i{
+    color: #D32F2F;
+}
+
+.header2 ul li:first-child{
+    border: 1px solid  #89C4F4;
+}
+.header2 ul li:first-child{
+    border-bottom: 1px solid #ffffff;
+}
+.mariya{
+    position: relative;
+}
+.mariya a{
+  
+}
+
+
+.header3{}
+.header3 ul{
+    list-style: none;
+    text-align: center ;
+}
+.header3 ul li{
+    display: inline-block;
+    position: relative;
+ }
+.header3 ul li a{ 
+    display: block;
+    padding:15px 10px;
+    color: #333;
+    transition: .3s ease;
+}
+.header3 ul li a i{
+    transform: rotate(180deg);
+}
+.header3 ul li a:hover i{
+    transform: rotate(0deg);
+}
+.header3 ul ul li a:hover+.header3 ul ul li a i{
+    transform: rotate(0deg);
+}
+.header3 ul li a:hover{
+    color:  #89C4F4;
+}
+.header3 ul  ul{
+    position: absolute;
+    top: 36px;
+    left: -99999999px;
+    list-style: disc;
+    background-color: white;
+}
+.header3 ul  ul li{
+    transition: .3s;
+    width: 200px;
+}
+.header3 ul  li:hover ul{
+    left: -74px;
+}
+.header3 ul  ul li a{
+    padding:5px 0 ;
+}
+
+
+
+
+
+.banar{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+.banar .banarImg{
+    width: 30%;
+    
+}
+
+.product{
+    margin-top: 20px;
+    color: #333;
+
+    
+}
+.productBox{
+    width: 20%;
+   
+    
+}
+
+.productBox:hover .productDit a{
+    display: block;
+
+}
+.productBox img{
+    width: 100%;
+    margin: 5px;
+   padding: 25px 25px 0px 25px;
+}
+.productDit{
+    text-align: center;
+    
+}
+.productDit a{
+    padding: 5px;
+    width: 100%;
+    font-size: 20px;
+    background-color:  #37AAF7;
+    border: none;
+    color: #ffffff;
+   
+    display: none;
+    
+}
+.productDit a:hover{
+    background-color:#459cd6;
+}
+.productDit p{
+    font-size: 18px;
+    text-align: center;
+    
+}

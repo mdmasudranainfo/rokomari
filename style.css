@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -15,24 +21,39 @@ a{
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
 }
+
+
 .container{
     width: 1080px;
     margin: auto;
 }
 
 /* Header Start */
+
+.stickyemnu{
+    background-color: #ffffff;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    z-index: 55;
+    padding-bottom: 20px;
+}
 .header{
     background-color: white;
    
-    z-index: 1;
+    
 }
 
 .header1{
-    overflow: hidden;
+  
     padding-top: 20px;
     padding-bottom: 41px;
+    position: sticky;
+    top: 0;
+
+   
   
-    overflow: hidden;
+   
 
 
 }
@@ -129,12 +150,9 @@ a{
 .mariya{
     position: relative;
 }
-.mariya a{
-  
-}
 
 
-.header3{}
+
 .header3 ul{
     list-style: none;
     text-align: center ;
@@ -185,11 +203,15 @@ a{
 
 .banar{
     overflow: hidden;
+   
+}
+.banarWrapr{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .banar .banarImg{
     width: 30%;
+    
     
 }
 
@@ -199,10 +221,28 @@ a{
 
     
 }
-.productBox{
+.productWraper{
+    background-color: #ffffff;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.tonoy{
     width: 20%;
+    position: relative;
+    
+    height: 370px;
+    transition: all .3s ease-in;
+    float: left;
+    
    
     
+}
+
+.tonoy:hover{
+    box-shadow: 0px -13px 50px -1px #bfbfbf;
+}
+.tonoy:hover .masud a{
+    display: inline-block;
 }
 
 .productBox:hover .productDit a{
@@ -237,3 +277,190 @@ a{
     text-align: center;
     
 }
+.masud{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   box-shadow: none;
+}
+
+.masud a{
+    background-color:#37AAF7;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Oswald', sans-serif;
+    display: none;
+   
+}
+.masud a:first-child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 175px;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: orange;
+    transition:all .2s ease;
+}
+.masud a:last-child{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+
+.productBox:hover {
+    opacity: .2;
+   
+}
+.tonoy{
+
+    position: relative;
+}
+
+.masud:hover {
+    background: rgba(255,255,255,0.4);
+    }
+
+
+
+
+
+    .seebook{
+       overflow: hidden;
+       display: block;
+       margin-top: 40px;
+    }
+
+
+.seebox{
+    width: 18%;
+    background-image: url(image/seebokbn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    color: white;
+    position: relative;
+    margin-top: 30px;
+}
+.seebookTit h2{
+    background-color: white;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 10px;
+    
+
+}
+.seeWraper{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+    background-color: #ffffff;
+    position: relative;
+    padding: 25px 7px;
+}
+.seeWraper::before{
+    position: absolute;
+    background-image: url(image/right-arrow.png);
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    top: 100px;
+    left: -32px;
+    z-index: 3;
+    transform: rotate(180deg);
+    opacity: .8;
+    cursor: pointer;
+
+}
+
+.seeWraper::after{
+    position: absolute;
+    background-image: url(image/right-arrow.png);
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    top:100px;
+    right: -33px;
+    z-index: 5;
+    opacity: .8;
+    cursor: pointer;
+}
+.seebox h2{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    width: 100%;
+}
+
+
+/* button */
+.moreButton{
+    margin-top: 30px;
+}
+.buttonWraper{
+    background-color: #fff;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.btn{
+    
+    text-align: center;
+   
+}
+
+
+.demo {
+    display: inline-block;
+    background: none;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: 1px solid#0397D3;
+    font-family: sans-serif;
+    background: #0397d338;
+   }
+   .demo::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #0397D3;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: all 0.3s linear;
+    z-index: -1;
+   }
+  
+   .demo:hover::after {
+    top: 0;
+    left: 0;
+
+   }
+   .demo:hover{
+       color: #ffffff;
+   }
+
+
+
+/* button */

@@ -575,7 +575,9 @@ a{
 /* customr Review  end */
 
 /* services start */
-.sevices{}
+.sevices{
+    
+}
 .servicsWraper{
     display: flex;
     justify-content: space-around;

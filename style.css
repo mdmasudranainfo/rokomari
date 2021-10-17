@@ -210,7 +210,8 @@ a{
     justify-content: space-between;
 }
 .banar .banarImg{
-    width: 30%;
+    width: 33%;
+    margin-top: 21px;
     
     
 }
@@ -221,9 +222,14 @@ a{
 
     
 }
+.product h2{
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: white;
+}
 .productWraper{
     background-color: #ffffff;
-    margin-top: 30px;
+    
     overflow: hidden;
 }
 .tonoy{
@@ -463,4 +469,228 @@ a{
 
 
 
-/* button */
+/* button  end*/
+
+
+/* author */
+.author{
+    margin-top: 50px;
+    
+}
+.athorMas{
+    background-color: white;
+   
+}
+.athurWraper{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.athurBox{
+    width: 25%;
+    text-align: center;
+    padding: 30px;
+ 
+    
+    
+}
+.athurBox img{
+    border-radius: 100%;
+    cursor: pointer;
+}
+.authorTit h2{
+   padding: 10px;
+
+}
+
+/* author end */
+
+/* subscribe start */
+.subscribebox{
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+}
+.subtutle{
+    color: #333;
+    
+}
+.subtutle span{
+    color: #39C24D;
+}
+.sunscribeinput{
+    padding: 10px;
+    margin-top: 20px;
+}
+.sunscribeinput input{
+    padding: 12px;
+    font-family: 'Oswald', sans-serif;
+  
+    border-radius: 3px;
+}
+.sunscribeinput input[type="text"]{
+    width: 300px;
+    outline: none;
+    border: 1px solid #ced4da;
+   
+    
+}
+.sunscribeinput input[type="text"]:focus{
+    box-shadow: 0px 0px 5px -1px #0397d3;
+    
+}
+.sunscribeinput .male{
+    color: #0397D3;
+    border: 1px solid #0397D3;
+    transition: .5s;
+}
+.sunscribeinput .male:hover{
+    background-color: #0397D3;
+    color: white;
+}
+.sunscribeinput .female:hover{
+    background-color: #E26A6A;
+    color: white;
+}
+
+
+.sunscribeinput .female{
+    color: #E26A6A;
+    border: 1px solid #E26A6A;
+    transition: .5s;
+}
+/* subscribe end */
+
+/* customr Review */
+
+.customarReview{
+    margin: 20px 0;
+}
+.contomarRvWraper{
+    width: 25%;
+}
+
+
+/* customr Review  end */
+
+/* services start */
+.sevices{}
+.servicsWraper{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.servicesBox{
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+}
+.servicesBox img {
+    width: 40px;
+    
+}
+.sevicesDit{
+    padding: 0 10px;
+}
+
+
+/* services End */
+
+/* resent Post srat */
+
+.resemtPost{}
+.resentPconteiner{
+    background-color: #ffffff;
+    padding: 10px;
+}
+.resentPostWraper{
+    display: flex;
+    justify-content: space-around;
+}
+.resentPostBox{
+    width: 15%;
+    cursor: pointer;
+    
+}
+/* resent Post End */
+
+/* futar start */
+.futar{
+    background-color: white;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.futarWraper{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.futarhelp{
+    margin-top: 20px;
+}
+.futarhelp p{}
+.futarhelp p em{
+    color: #333333;
+    margin-left: 5px;
+    font-size: 105%;
+    font-style: normal;
+}
+.futarhelp img{
+    margin-right: 10px;
+}
+.saycollect{}
+.saycollect .fa-facebook{
+    color: #3b5998;
+}
+.saycollect .fa-twitter{
+    color: #00aced;
+}
+.saycollect .fa-linkedin-in{
+    color: #007bb6;
+}
+.saycollect .fa-youtube{
+    color: #bb0000;
+}
+
+
+
+.saycollect i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.futarhome{
+    width: 16%;
+}
+.facebookflow{
+    width: 20%;
+}
+
+.futarhome{}
+.futarhome p{
+    padding: 10px 0;
+    color: black;
+}
+.futarhome ul{
+    list-style:circle;
+}
+.futarhome ul li{}
+.futarhome ul li a{
+    color: #333;
+}
+/* futar End */
+
+
+
+
+
+
+
+
